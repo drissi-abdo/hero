@@ -1,0 +1,9 @@
+create database hero;
+use hero;
+create table person{
+  id int primary key,
+  name varchar(30),
+  email varchar(50) unique
+}
+
+
